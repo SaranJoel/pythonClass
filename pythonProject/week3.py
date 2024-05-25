@@ -41,3 +41,11 @@ for i in range(a,b,c) or range(b,a,c):
     cube = i **3
     print(f'{i} cubed as {cube}')
 
+    #the above program is really good and it was explained
+    '''
+    for i in range(a,b,c):
+    cube = i **3
+    print(f'{i} cubed as {cube}')
+    
+    if the input is like 
+    '''
