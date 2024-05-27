@@ -44,3 +44,31 @@ split_bill = int(input("Among how many people tp slit the bill?"))
 
 paybill = billwith_tip/split_bill
 print(f"each person should pay{round(paybill,2)}")
+
+'''
+Write code to issue a ticket if they are 120 cm or not
+
+variables 
+'''
+
+#varibles
+#height = int
+
+print("welcome to joel's theme park")
+height = int(input("enter your height in cm?"))
+
+if height >120:
+    print("you are eligible to enter this theme park for a ride!")
+else:
+    print("you are not eligible to enter the theme park, com back next year !!!! :)))")
+
+
+''' Check the number is odd or even '''
+
+#num to taketeh inputs = int
+
+num = int(input("enter the number to be check if odd or even"))
+if num %2 == 0:
+    print(f"the {num} is even")
+else:
+    print(f"the {num} id odd")
