@@ -51,9 +51,13 @@ def withdrawMoney():
                 amount -= wMoney
                 print(f'{userName} you have withdrawn ${wMoney}')
                 return amount
+            elif amount == 0 and wMoney > 0:
+                print(f'you have ${amount} in your account')
+                print(f'Please make a deposit to withdraw')
+                depositMoney()
             else:#if not then this is printed
                 print('Insufficient Funds ')
-                print(f'Your Balance is ${amount}, First deposit amount to withdraw')
+                print(f'Your Balance is ${amount}')
 
 
         except ValueError:#this is used to expect error
