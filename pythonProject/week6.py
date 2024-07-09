@@ -129,3 +129,19 @@ while index < len(alist):
         index += 1
 
 print(alist)
+
+
+#
+#
+# this is to test when will the for loop exit
+total = 0
+max = int(input('enter max money yuo want to spend'))
+for count in range(1, 11):
+    cost = int(input('Enter the cost of item'))
+    total = total + cost
+    if total > max:
+        print('you have reached your limit')
+        total = total - cost
+        break
+    print(f'you have brought{count} items')
+print(f'your total is {total}')
