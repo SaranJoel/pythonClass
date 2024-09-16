@@ -22,3 +22,4 @@ while True:
 #print(data)
 compare = max(data, key=data.get)#here the value of thkeys is compared
 print(f' the highest bidder {compare} and the bid is {data[compare]}')
+
